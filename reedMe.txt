@@ -1,0 +1,1 @@
+Added more fuctionality frpom Firebase: FirebaseFirestore and FirebaseStorage.Made a storage to upload new registered users's info and a photo.

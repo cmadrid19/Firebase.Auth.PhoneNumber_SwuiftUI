@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,6 +18,14 @@
 		9E1BA3702524A3AC0099DCA3 /* OTPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1BA36F2524A3AC0099DCA3 /* OTPTests.swift */; };
 		9E1BA37B2524A3AC0099DCA3 /* OTPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1BA37A2524A3AC0099DCA3 /* OTPUITests.swift */; };
 		9E1BA38C2524A6AA0099DCA3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9E1BA38B2524A6AA0099DCA3 /* GoogleService-Info.plist */; };
+		9EBDCB3F25252C3100EDB4A6 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBDCB3E25252C3100EDB4A6 /* ImagePicker.swift */; };
+		9EBDCB4425252C5E00EDB4A6 /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBDCB4325252C5E00EDB4A6 /* Indicator.swift */; };
+		9EBDCB4C25252C8E00EDB4A6 /* AccountCreation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBDCB4B25252C8E00EDB4A6 /* AccountCreation.swift */; };
+		9EBDCB5925252CCE00EDB4A6 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBDCB5825252CCE00EDB4A6 /* Home.swift */; };
+		9EBDCB5E25252CF300EDB4A6 /* SecondPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBDCB5D25252CF300EDB4A6 /* SecondPage.swift */; };
+		9EBDCB6325252D1C00EDB4A6 /* FirstPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBDCB6225252D1C00EDB4A6 /* FirstPage.swift */; };
+		9EBDCB6825252D5100EDB4A6 /* CheckUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBDCB6725252D5100EDB4A6 /* CheckUser.swift */; };
+		9EBDCB6D25252D7900EDB4A6 /* CreateUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBDCB6C25252D7900EDB4A6 /* CreateUser.swift */; };
 		E29948C11A9AB12B1308E13A /* Pods_OTP_OTPUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD95A92D59723B494543E58A /* Pods_OTP_OTPUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +69,14 @@
 		9E1BA37A2524A3AC0099DCA3 /* OTPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPUITests.swift; sourceTree = "<group>"; };
 		9E1BA37C2524A3AC0099DCA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E1BA38B2524A6AA0099DCA3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9EBDCB3E25252C3100EDB4A6 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		9EBDCB4325252C5E00EDB4A6 /* Indicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Indicator.swift; sourceTree = "<group>"; };
+		9EBDCB4B25252C8E00EDB4A6 /* AccountCreation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCreation.swift; sourceTree = "<group>"; };
+		9EBDCB5825252CCE00EDB4A6 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		9EBDCB5D25252CF300EDB4A6 /* SecondPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPage.swift; sourceTree = "<group>"; };
+		9EBDCB6225252D1C00EDB4A6 /* FirstPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPage.swift; sourceTree = "<group>"; };
+		9EBDCB6725252D5100EDB4A6 /* CheckUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckUser.swift; sourceTree = "<group>"; };
+		9EBDCB6C25252D7900EDB4A6 /* CreateUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUser.swift; sourceTree = "<group>"; };
 		BD95A92D59723B494543E58A /* Pods_OTP_OTPUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OTP_OTPUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6B8024A6B2A9ECE59893D66 /* Pods-OTPTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTPTests.debug.xcconfig"; path = "Target Support Files/Pods-OTPTests/Pods-OTPTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -128,6 +144,8 @@
 		9E1BA3572524A3AB0099DCA3 /* OTP */ = {
 			isa = PBXGroup;
 			children = (
+				9EBDCB3D25252C1000EDB4A6 /* Views */,
+				9EBDCB3C25252C0800EDB4A6 /* Model */,
 				9E1BA38B2524A6AA0099DCA3 /* GoogleService-Info.plist */,
 				9E1BA3582524A3AB0099DCA3 /* AppDelegate.swift */,
 				9E1BA35A2524A3AB0099DCA3 /* SceneDelegate.swift */,
@@ -166,6 +184,28 @@
 			path = OTPUITests;
 			sourceTree = "<group>";
 		};
+		9EBDCB3C25252C0800EDB4A6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9EBDCB6725252D5100EDB4A6 /* CheckUser.swift */,
+				9EBDCB6C25252D7900EDB4A6 /* CreateUser.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9EBDCB3D25252C1000EDB4A6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9EBDCB3E25252C3100EDB4A6 /* ImagePicker.swift */,
+				9EBDCB4325252C5E00EDB4A6 /* Indicator.swift */,
+				9EBDCB4B25252C8E00EDB4A6 /* AccountCreation.swift */,
+				9EBDCB5825252CCE00EDB4A6 /* Home.swift */,
+				9EBDCB5D25252CF300EDB4A6 /* SecondPage.swift */,
+				9EBDCB6225252D1C00EDB4A6 /* FirstPage.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		A92C40D9A5B6CD5DFCD29CFD /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -176,7 +216,6 @@
 				D6B8024A6B2A9ECE59893D66 /* Pods-OTPTests.debug.xcconfig */,
 				1B63DE10217D9D7F1E6F25FD /* Pods-OTPTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -420,8 +459,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E1BA3592524A3AB0099DCA3 /* AppDelegate.swift in Sources */,
+				9EBDCB3F25252C3100EDB4A6 /* ImagePicker.swift in Sources */,
+				9EBDCB4C25252C8E00EDB4A6 /* AccountCreation.swift in Sources */,
 				9E1BA35B2524A3AB0099DCA3 /* SceneDelegate.swift in Sources */,
+				9EBDCB5E25252CF300EDB4A6 /* SecondPage.swift in Sources */,
+				9EBDCB6325252D1C00EDB4A6 /* FirstPage.swift in Sources */,
+				9EBDCB4425252C5E00EDB4A6 /* Indicator.swift in Sources */,
+				9EBDCB6825252D5100EDB4A6 /* CheckUser.swift in Sources */,
 				9E1BA35D2524A3AB0099DCA3 /* ContentView.swift in Sources */,
+				9EBDCB5925252CCE00EDB4A6 /* Home.swift in Sources */,
+				9EBDCB6D25252D7900EDB4A6 /* CreateUser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
