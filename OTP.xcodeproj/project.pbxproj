@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E81FAFCEA7EE85CECE706C8 /* Pods_OTPTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24606D5674CF2C47E99BF1EF /* Pods_OTPTests.framework */; };
+		8B59FC07703F2F48C6EB7652 /* Pods_OTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB971BC414C82E2C9D074FD /* Pods_OTP.framework */; };
 		9E1BA3592524A3AB0099DCA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1BA3582524A3AB0099DCA3 /* AppDelegate.swift */; };
 		9E1BA35B2524A3AB0099DCA3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1BA35A2524A3AB0099DCA3 /* SceneDelegate.swift */; };
 		9E1BA35D2524A3AB0099DCA3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1BA35C2524A3AB0099DCA3 /* ContentView.swift */; };
@@ -15,6 +17,8 @@
 		9E1BA3652524A3AC0099DCA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E1BA3632524A3AC0099DCA3 /* LaunchScreen.storyboard */; };
 		9E1BA3702524A3AC0099DCA3 /* OTPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1BA36F2524A3AC0099DCA3 /* OTPTests.swift */; };
 		9E1BA37B2524A3AC0099DCA3 /* OTPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1BA37A2524A3AC0099DCA3 /* OTPUITests.swift */; };
+		9E1BA38C2524A6AA0099DCA3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9E1BA38B2524A6AA0099DCA3 /* GoogleService-Info.plist */; };
+		E29948C11A9AB12B1308E13A /* Pods_OTP_OTPUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD95A92D59723B494543E58A /* Pods_OTP_OTPUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06A241CD5F17B799C76759FD /* Pods-OTP-OTPUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTP-OTPUITests.release.xcconfig"; path = "Target Support Files/Pods-OTP-OTPUITests/Pods-OTP-OTPUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0AB971BC414C82E2C9D074FD /* Pods_OTP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OTP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B63DE10217D9D7F1E6F25FD /* Pods-OTPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTPTests.release.xcconfig"; path = "Target Support Files/Pods-OTPTests/Pods-OTPTests.release.xcconfig"; sourceTree = "<group>"; };
+		24606D5674CF2C47E99BF1EF /* Pods_OTPTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OTPTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34832F05DF0C0D8F219231B3 /* Pods-OTP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTP.debug.xcconfig"; path = "Target Support Files/Pods-OTP/Pods-OTP.debug.xcconfig"; sourceTree = "<group>"; };
+		6F251A8BE0D5A86FC9DC2111 /* Pods-OTP-OTPUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTP-OTPUITests.debug.xcconfig"; path = "Target Support Files/Pods-OTP-OTPUITests/Pods-OTP-OTPUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		997CB1C1173F292399245E5B /* Pods-OTP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTP.release.xcconfig"; path = "Target Support Files/Pods-OTP/Pods-OTP.release.xcconfig"; sourceTree = "<group>"; };
 		9E1BA3552524A3AB0099DCA3 /* OTP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OTP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E1BA3582524A3AB0099DCA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E1BA35A2524A3AB0099DCA3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +60,9 @@
 		9E1BA3762524A3AC0099DCA3 /* OTPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OTPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E1BA37A2524A3AC0099DCA3 /* OTPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPUITests.swift; sourceTree = "<group>"; };
 		9E1BA37C2524A3AC0099DCA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E1BA38B2524A6AA0099DCA3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BD95A92D59723B494543E58A /* Pods_OTP_OTPUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OTP_OTPUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6B8024A6B2A9ECE59893D66 /* Pods-OTPTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTPTests.debug.xcconfig"; path = "Target Support Files/Pods-OTPTests/Pods-OTPTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B59FC07703F2F48C6EB7652 /* Pods_OTP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E81FAFCEA7EE85CECE706C8 /* Pods_OTPTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +86,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E29948C11A9AB12B1308E13A /* Pods_OTP_OTPUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		95BAE1D9E9237EA5AA2A38BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0AB971BC414C82E2C9D074FD /* Pods_OTP.framework */,
+				BD95A92D59723B494543E58A /* Pods_OTP_OTPUITests.framework */,
+				24606D5674CF2C47E99BF1EF /* Pods_OTPTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9E1BA34C2524A3AB0099DCA3 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +110,8 @@
 				9E1BA36E2524A3AC0099DCA3 /* OTPTests */,
 				9E1BA3792524A3AC0099DCA3 /* OTPUITests */,
 				9E1BA3562524A3AB0099DCA3 /* Products */,
+				A92C40D9A5B6CD5DFCD29CFD /* Pods */,
+				95BAE1D9E9237EA5AA2A38BF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +128,7 @@
 		9E1BA3572524A3AB0099DCA3 /* OTP */ = {
 			isa = PBXGroup;
 			children = (
+				9E1BA38B2524A6AA0099DCA3 /* GoogleService-Info.plist */,
 				9E1BA3582524A3AB0099DCA3 /* AppDelegate.swift */,
 				9E1BA35A2524A3AB0099DCA3 /* SceneDelegate.swift */,
 				9E1BA35C2524A3AB0099DCA3 /* ContentView.swift */,
@@ -136,6 +166,20 @@
 			path = OTPUITests;
 			sourceTree = "<group>";
 		};
+		A92C40D9A5B6CD5DFCD29CFD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34832F05DF0C0D8F219231B3 /* Pods-OTP.debug.xcconfig */,
+				997CB1C1173F292399245E5B /* Pods-OTP.release.xcconfig */,
+				6F251A8BE0D5A86FC9DC2111 /* Pods-OTP-OTPUITests.debug.xcconfig */,
+				06A241CD5F17B799C76759FD /* Pods-OTP-OTPUITests.release.xcconfig */,
+				D6B8024A6B2A9ECE59893D66 /* Pods-OTPTests.debug.xcconfig */,
+				1B63DE10217D9D7F1E6F25FD /* Pods-OTPTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,9 +187,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9E1BA37F2524A3AC0099DCA3 /* Build configuration list for PBXNativeTarget "OTP" */;
 			buildPhases = (
+				5E9845A162976648A0115382 /* [CP] Check Pods Manifest.lock */,
 				9E1BA3512524A3AB0099DCA3 /* Sources */,
 				9E1BA3522524A3AB0099DCA3 /* Frameworks */,
 				9E1BA3532524A3AB0099DCA3 /* Resources */,
+				C701DC1E5CBD88C700E33C8F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,6 +206,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9E1BA3822524A3AC0099DCA3 /* Build configuration list for PBXNativeTarget "OTPTests" */;
 			buildPhases = (
+				C10A252528C3A45A4A00B74B /* [CP] Check Pods Manifest.lock */,
 				9E1BA3672524A3AC0099DCA3 /* Sources */,
 				9E1BA3682524A3AC0099DCA3 /* Frameworks */,
 				9E1BA3692524A3AC0099DCA3 /* Resources */,
@@ -178,9 +225,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9E1BA3852524A3AC0099DCA3 /* Build configuration list for PBXNativeTarget "OTPUITests" */;
 			buildPhases = (
+				7D0780AA8724A0D90FC9B282 /* [CP] Check Pods Manifest.lock */,
 				9E1BA3722524A3AC0099DCA3 /* Sources */,
 				9E1BA3732524A3AC0099DCA3 /* Frameworks */,
 				9E1BA3742524A3AC0099DCA3 /* Resources */,
+				50D7C95AF810C1FA27C8F2BF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -240,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E1BA3652524A3AC0099DCA3 /* LaunchScreen.storyboard in Resources */,
+				9E1BA38C2524A6AA0099DCA3 /* GoogleService-Info.plist in Resources */,
 				9E1BA3622524A3AC0099DCA3 /* Preview Assets.xcassets in Resources */,
 				9E1BA35F2524A3AC0099DCA3 /* Assets.xcassets in Resources */,
 			);
@@ -260,6 +310,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50D7C95AF810C1FA27C8F2BF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OTP-OTPUITests/Pods-OTP-OTPUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OTP-OTPUITests/Pods-OTP-OTPUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OTP-OTPUITests/Pods-OTP-OTPUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E9845A162976648A0115382 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OTP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D0780AA8724A0D90FC9B282 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OTP-OTPUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C10A252528C3A45A4A00B74B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OTPTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C701DC1E5CBD88C700E33C8F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OTP/Pods-OTP-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OTP/Pods-OTP-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OTP/Pods-OTP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9E1BA3512524A3AB0099DCA3 /* Sources */ = {
@@ -433,6 +586,7 @@
 		};
 		9E1BA3802524A3AC0099DCA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34832F05DF0C0D8F219231B3 /* Pods-OTP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -453,6 +607,7 @@
 		};
 		9E1BA3812524A3AC0099DCA3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 997CB1C1173F292399245E5B /* Pods-OTP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -473,6 +628,7 @@
 		};
 		9E1BA3832524A3AC0099DCA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6B8024A6B2A9ECE59893D66 /* Pods-OTPTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +650,7 @@
 		};
 		9E1BA3842524A3AC0099DCA3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B63DE10217D9D7F1E6F25FD /* Pods-OTPTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +672,7 @@
 		};
 		9E1BA3862524A3AC0099DCA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F251A8BE0D5A86FC9DC2111 /* Pods-OTP-OTPUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -534,6 +692,7 @@
 		};
 		9E1BA3872524A3AC0099DCA3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06A241CD5F17B799C76759FD /* Pods-OTP-OTPUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

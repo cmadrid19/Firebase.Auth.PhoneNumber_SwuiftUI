@@ -1,0 +1,6 @@
+framework module Pods_OTP_OTPUITests {
+  umbrella header "Pods-OTP-OTPUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
